@@ -6,7 +6,7 @@ function App() {
 
     return (
         <>
-            <h1>My todo app</h1>
+            <h1>Redux todo app ⚛️</h1>
             <AddTodo />
             <ViewTodos />
         </>
