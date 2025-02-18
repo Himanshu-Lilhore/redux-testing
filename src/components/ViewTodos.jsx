@@ -2,7 +2,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { removeTodo } from "../features/todo/todoSlice";
 
 export default function ViewTodos() {
-    const todos = useSelector(state => state.t2.todos)
+    const todos = useSelector(state => state.todos)
     const dispatch = useDispatch()
 
     return (
